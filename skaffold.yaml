@@ -5,6 +5,7 @@ metadata:
 build:
   artifacts:
   - image: skaffold-create-react-app
+    context: frontend
     sync:
       infer:
       - '**/*.ts'
